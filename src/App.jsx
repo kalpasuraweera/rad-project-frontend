@@ -9,6 +9,8 @@ import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
 import Login from "./pages/Login";
 
+
+
 export const ThemeContext = createContext();
 
 function App() {
@@ -42,6 +44,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<Login />} />
+            
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
