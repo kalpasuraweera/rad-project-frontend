@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
 import Login from "./pages/Login";
 import B_R_Form from "./pages/B_R_Form";
+import B_R_Dashboard from "./pages/B_R_Dashboard";
 
 
 
@@ -46,6 +47,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<Login />} />
             <Route path="/brform" element={<B_R_Form />} />
+            <Route path="/brdashboard" element={<B_R_Dashboard />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
