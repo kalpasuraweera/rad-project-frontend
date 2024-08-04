@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
 import Login from "./pages/Login";
+import B_R_Form from "./pages/B_R_Form";
 
 
 
@@ -44,7 +45,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<Login />} />
-            
+            <Route path="/brform" element={<B_R_Form />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
